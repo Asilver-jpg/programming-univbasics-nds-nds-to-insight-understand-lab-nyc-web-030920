@@ -5,7 +5,7 @@ require 'directors_database'
 
 def pretty_print_nds(nds)
   d= directors_database
- binding.pry
+ #binding.pry
     pp d
 
 end
@@ -19,6 +19,6 @@ def print_first_directors_movie_titles
     s+= "\n"
     
   end
-  binding.pry
+  #binding.pry
   puts s
 end
